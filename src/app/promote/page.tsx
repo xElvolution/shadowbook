@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { AppShell } from "@/components/app-shell";
+import { useOperator } from "@/components/operator-context";
 
 type Leg = {
   id: string;
@@ -18,6 +19,7 @@ type Leg = {
 };
 
 export default function PromotePage() {
+  const { operator } = useOperator();
   const [pending, setPending] = useState<Leg[]>([]);
   const [greens, setGreens] = useState<Leg[]>([]);
   const [policyHash, setPolicyHash] = useState("");
@@ -59,7 +61,7 @@ export default function PromotePage() {
     const body: Record<string, unknown> = {
       action,
       legIds: action === "accept_greens" ? undefined : ids(),
-      primaryAck: "operator",
+      primaryAck: operator?.handle || "operator",
       secondaryAck: secondaryAck || undefined,
       policySeal,
     };

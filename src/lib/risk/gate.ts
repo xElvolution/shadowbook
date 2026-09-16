@@ -75,7 +75,8 @@ export function scoreShadowIntent(
       r.includes("allowlist") ||
       r.includes("cannot cover") ||
       r.includes("too small") ||
-      r.includes("exceeds cap"),
+      r.includes("exceeds cap") ||
+      r.includes("below floor"),
   );
 
   let cappedQty = intent.sizedQty;
