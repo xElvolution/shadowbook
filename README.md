@@ -1,8 +1,6 @@
 # SHADOWBOOK
 
-**Track:** Bitget AI Hackathon S2 — Agent Trading (tokenized US stocks / Bitget rTokens).
-
-**Not** Solana. **Not** Stocklana. **Not** any other chain hackathon.
+**Track:** Bitget AI Hackathon S2 · Agent Trading (tokenized US stocks / Bitget rTokens).
 
 Agents rehearse overnight on a **live-priced shadow twin** of your Bitget rToken book (`rAAPL`, `rNVDA`, `rTSLA`, `rMSFT`, `rAMZN`). At cash open you **promote or discard** each sized leg. No promote = the night never hit your holdings.
 

@@ -33,6 +33,7 @@
   --color-accent: var(--accent);
   --color-accent2: var(--accent-2);
   --color-promote: var(--promote);
+  --color-promote-dim: var(--promote-dim);
   --color-gain: var(--gain);
   --color-loss: var(--loss);
   --color-warn: var(--warn);
@@ -139,4 +140,44 @@ body {
 
 .btn-ghost:hover {
   background: var(--surface-2);
+}
+
+
+/* Marketing landing */
+.marketing-header {
+  position: sticky;
+  top: 0;
+}
+
+.bitget-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(197, 180, 255, 0.22);
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.7rem;
+  white-space: nowrap;
+}
+
+.landing-section {
+  position: relative;
+}
+
+.hero-line-mask {
+  display: block;
+}
+
+.hero-panel {
+  isolation: isolate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-line-mask > * {
+    transform: none !important;
+  }
 }

@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono"
 export const metadata: Metadata = {
   title: "SHADOWBOOK | Bitget AI Hackathon S2",
   description:
-    "Bitget AI Hackathon S2 — tokenized US stocks (rTokens). Agents rehearse on a live-priced Bitget shadow twin. You promote sized fills to live at cash open. Not Solana. Not Stocklana.",
+    "Bitget AI Hackathon S2: tokenized US stocks (rTokens). Agents rehearse on a live-priced Bitget shadow twin. You promote sized fills to live at cash open.",
   authors: [{ name: "XElvolution" }],
   keywords: [
     "Bitget",
