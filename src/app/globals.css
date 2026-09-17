@@ -34,6 +34,7 @@
   --color-accent2: var(--accent-2);
   --color-promote: var(--promote);
   --color-promote-dim: var(--promote-dim);
+  --color-accent-dim: var(--accent-dim);
   --color-gain: var(--gain);
   --color-loss: var(--loss);
   --color-warn: var(--warn);
@@ -180,4 +181,13 @@ body {
   .hero-line-mask > * {
     transform: none !important;
   }
+}
+
+
+.process-rail {
+  position: relative;
+}
+
+.process-node {
+  box-shadow: 0 0 0 4px var(--bg-elevated);
 }
