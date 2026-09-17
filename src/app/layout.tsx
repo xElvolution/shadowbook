@@ -7,8 +7,9 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-  title: "SHADOWBOOK",
-  description: "Agents rehearse overnight. You promote at open.",
+  title: "SHADOWBOOK | Bitget rToken overnight",
+  description:
+    "Bitget AI: agents rehearse on a live-priced rToken shadow twin. You promote sized fills to live at cash open.",
   authors: [{ name: "XElvolution" }],
 };
 

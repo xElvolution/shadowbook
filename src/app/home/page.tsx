@@ -36,14 +36,19 @@ export default function HomePage() {
       <div className="mx-auto max-w-4xl">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <p className="label">Home</p>
+            <p className="label">Home · Bitget rToken</p>
             <h1 className="mt-1 text-[28px] font-semibold tracking-[-0.03em]">Overnight board</h1>
             <p className="mt-2 max-w-lg text-[14px] text-mute">
-              Live book is read-only until you promote. Shadow twin carries tonight sized fills.
+              Live Bitget book stays read-only until you promote. Shadow twin carries tonight sized
+              rToken fills. Morning: accept or discard each leg on Promote.
             </p>
           </div>
           <Link href="/promote" className="btn-primary">
-            {waiting} leg{waiting === 1 ? "" : "s"} waiting
+            {waiting === 0
+              ? "Open Promote"
+              : waiting === 1
+                ? "1 leg waiting to promote"
+                : `${waiting} legs waiting to promote`}
           </Link>
         </div>
 
@@ -57,11 +62,17 @@ export default function HomePage() {
             </div>
             <p className="mt-1 text-[12px] text-faint">Realized on twin only</p>
           </div>
-          <div className="card p-5">
+          <Link href="/promote" className="card block p-5 transition-colors hover:border-line2">
             <div className="label">Waiting to promote</div>
             <div className="mt-2 text-[28px] font-semibold tabular text-promote">{waiting}</div>
-            <p className="mt-1 text-[12px] text-faint">Line-item accept or discard</p>
-          </div>
+            <p className="mt-1 text-[12px] text-faint">
+              {waiting === 0
+                ? "No legs yet. Run Shadow tonight."
+                : waiting === 1
+                  ? "1 leg waiting to promote"
+                  : `${waiting} legs waiting to promote`}
+            </p>
+          </Link>
           <div className="card p-5">
             <div className="label">Night bundle</div>
             <div className="mt-2 truncate text-[15px] font-medium tabular text-accent">

@@ -1,5 +1,7 @@
 # SHADOWBOOK
 
+**Bitget AI Hackathon S2** entry: overnight rToken shadow twin, morning promote to live Bitget.
+
 Agents rehearse overnight on a **live-priced shadow twin** of your Bitget rToken book. At cash open you **promote or discard** each sized leg. No promote = the night never hit your holdings.
 
 **Author:** [XElvolution](https://github.com/xElvolution)

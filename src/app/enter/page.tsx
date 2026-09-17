@@ -36,7 +36,7 @@ export default function EnterPage() {
     <MarketingShell>
       <main className="mx-auto flex min-h-[70vh] max-w-md flex-col justify-center gap-6 px-6 py-16">
         <h1 className="text-2xl font-semibold">Enter</h1>
-        <p className="text-sm text-mute">Sign in as an operator to open the shadow desk.</p>
+        <p className="text-sm text-mute">Sign in as an operator to open your Bitget rToken shadow desk.</p>
         <form onSubmit={onSubmit} className="flex flex-col gap-3">
           <input
             className="rounded-xl border border-line bg-surface px-3 py-2 text-sm"
