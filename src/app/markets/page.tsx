@@ -19,8 +19,10 @@ export default function MarketsPage() {
   return (
     <AppShell>
       <main className="mx-auto max-w-5xl px-4 py-8">
-        <h1 className="text-2xl font-semibold">Markets</h1>
-        <p className="mt-1 text-sm text-mute">{data?.label || "Session-aware rToken quotes"}</p>
+        <h1 className="text-2xl font-semibold">Bitget Markets</h1>
+        <p className="mt-1 text-sm text-mute">
+          {data?.label || "Bitget AI S2 · session-aware rToken quotes (rAAPL rNVDA rTSLA rMSFT rAMZN)"}
+        </p>
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {(data?.quotes || []).map((q) => (
             <div key={q.symbol} className="rounded-2xl border border-line bg-surface p-4">

@@ -14,7 +14,7 @@ export function Landing() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
         >
-          Bitget rToken overnight
+          Bitget AI Hackathon S2 · tokenized US stocks
         </motion.p>
         <motion.h1
           className="mt-4 max-w-2xl text-[40px] font-semibold leading-[1.08] tracking-[-0.035em] text-ink sm:text-[52px]"
@@ -30,9 +30,10 @@ export function Landing() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, delay: 0.1 }}
         >
-          Your live Bitget book stays untouched while agents trade a live-priced shadow twin.
-          Morning: accept or discard each sized rToken leg. No promote means the night never hit
-          your holdings.
+          Built for Bitget AI Hackathon S2 — not Solana, not Stocklana. Your live Bitget book of
+          rAAPL, rNVDA, rTSLA, rMSFT, and rAMZN stays untouched while agents trade a live-priced
+          shadow twin. Morning: promote or discard each sized rToken leg. No promote means the
+          night never hit your holdings.
         </motion.p>
         <motion.div
           className="mt-9 flex flex-wrap gap-3"

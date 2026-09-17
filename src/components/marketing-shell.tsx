@@ -16,7 +16,8 @@ export function MarketingShell({ children }: { children: React.ReactNode }) {
       </header>
       <div className="relative z-10">{children}</div>
       <footer className="relative z-10 mx-auto max-w-5xl px-5 py-10 text-[12px] text-faint">
-        Sole author XElvolution. Agents rehearse on a shadow twin. You promote at open.
+        Bitget AI Hackathon S2 · tokenized US stocks (rTokens) · Sole author XElvolution.
+        Not Solana. Not Stocklana. Agents rehearse on a Bitget shadow twin. You promote at open.
       </footer>
     </div>
   );

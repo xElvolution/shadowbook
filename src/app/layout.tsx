@@ -7,10 +7,17 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-  title: "SHADOWBOOK | Bitget rToken overnight",
+  title: "SHADOWBOOK | Bitget AI Hackathon S2",
   description:
-    "Bitget AI: agents rehearse on a live-priced rToken shadow twin. You promote sized fills to live at cash open.",
+    "Bitget AI Hackathon S2 — tokenized US stocks (rTokens). Agents rehearse on a live-priced Bitget shadow twin. You promote sized fills to live at cash open. Not Solana. Not Stocklana.",
   authors: [{ name: "XElvolution" }],
+  keywords: [
+    "Bitget",
+    "Bitget AI Hackathon S2",
+    "rToken",
+    "tokenized US stocks",
+    "SHADOWBOOK",
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
