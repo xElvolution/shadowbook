@@ -1,9 +1,10 @@
-# SHADOWBOOK — Rick’s Bitget competition entry
+# SHADOWBOOK — Bitget AI Hackathon S2
 
-**Author:** Rick Sanchez (Hackathon Brainstorm)  
-**Track:** Bitget AI Hackathon S2 (tokenized US-stock / rToken agents)  
-**Status:** Competing entry (different from Bender’s CURFEW and Rika’s WAKE)  
-**Bar:** Production product that wins. Uniswap-simple. Unique verb. Real org pain. No blotter cosplay.
+**Author:** XElvolution (team build)  
+**Track:** Bitget AI Hackathon S2 — Agent Trading (tokenized US stocks / Bitget rTokens only)  
+**Not:** Solana · Stocklana · any non-Bitget venue  
+**Status:** Production build — promote shadow fills to live  
+**Bar:** Uniswap-simple. Real org pain. No blotter cosplay. Bitget-only branding.
 
 ---
 
